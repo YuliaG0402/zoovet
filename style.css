@@ -1,0 +1,210 @@
+html{
+     scroll-behavior: smooth;
+}
+body {
+    font-family: sans-serif;
+    background-color: blanchedalmond;
+   
+}
+header {
+    background-image: linear-gradient(to right, yellow, lightblue, green);
+    height: 100px;
+    display: flex;
+    border-top: 2px solid blue;
+    border-left: 2px solid blue;
+    border-right: 2px solid blue;
+    width: 100%;
+}
+header img {
+    height: 90px;
+    width: 120px;
+    border-radius: 30%;
+}
+header h1 {
+    position: relative;
+    top: 10px;
+    color: rgb(70, 65, 7);
+}
+nav a {
+    color: black;
+    background-image: linear-gradient(yellow, white, lightblue);
+    border-radius:30px;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 10px double navy;
+    box-shadow: 5px 5px 8px 1px navy;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(to right, yellow, lightblue, green);
+    border: 2px solid blue;
+    width: 100%;
+    flex-wrap: wrap;
+}
+section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+article {
+    height: 570px;
+    width: 300px;
+    color: black;
+    background-image: linear-gradient(lightblue, yellow);
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-top: 10px;
+    border: 5px solid navy;
+    justify-content: center;
+}
+article img {
+    height: 230px;
+    width: 280px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 40px ;
+    border: 1px solid navy;
+}
+article h2 {
+    text-align: center;
+    padding-top: 6px;
+}
+ article p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+nav a:hover {
+    background-image: linear-gradient(darkorange, white, red);
+    border: 10px double black;
+    color: black;
+    box-shadow: 5px 5px 8px 1px darkred;
+}
+h1:hover {
+    color: black;
+    font-style: italic;
+}
+article:hover {
+    background-image: linear-gradient(lightgreen, white, rgb(253, 195, 87));
+}
+main h1{
+    text-align: center;
+    color: rgb(70, 65, 7);
+}
+.post {
+    position: fixed;
+    top: 120px;
+    float: right;
+    height: 330px;
+    width: 90px;
+    font-size: 10px;
+    border: 3px solid darkolivegreen;
+    background-image: linear-gradient(lightgreen, rgb(233, 222, 159), red);
+}
+.post img {
+    height: 80px;
+    width: 70px;
+    border-radius: 30px;
+    border: 0px;
+}
+.post h1:hover {
+    color: indigo;
+    font-style: italic;
+}
+.post:hover {
+    border: 3px solid darkred;
+    background-image: linear-gradient(lightgreen, rgb(233, 222, 159), red);
+}
+span {
+    color: navy;
+    font-weight: 900;
+    border-bottom: 2px solid blue;
+}
+span:hover {
+    border-bottom: 3px dotted blue;
+    color: red;
+}
+footer {
+    height: 140px;
+    color: brown;
+    background-image: linear-gradient(to right, yellow, lightblue, green);
+    padding: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid blue;
+    border-radius: 30px;
+}
+footer p {
+    background-color: rgb(0, 217, 255);
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+span::before {
+    content: url(/uploads/2021/03/tel_0_1616091817.svg);
+}
+span::after {
+    content: url(/uploads/2021/03/tel_0_1616091817.svg);
+}
+.before_footer {
+    margin: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+.before_footer img {
+    height: 400px;
+    width: 650px;
+    border: 8px double darkorange;
+    border-radius: 30px;
+}
+.before_footer img:hover {
+    border: 8px double green;
+}
+.post p:hover {
+    font-size: 10px;
+}
+.ukraine:hover {
+    color: blue;
+    background-color: yellow;
+}
+.ukraine1:hover {
+    color: yellow;
+    background-color: blue;
+}   
+.us {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+.us:hover {
+    font-style: italic;
+    border-bottom: 3px dotted blue;
+    color: green;
+}
+.pacient img {
+    height: 200px;
+    width: 350px;
+    border: 9px double orange;
+    border-radius: 15px;
+    margin: 10px;
+}
+.pacient {
+    display: flex;
+    justify-content: center;
+}
+.pacient p {
+    float: right;
+    margin: 10px;
+}
+.pacient img:hover {
+    border: 9px double green;
+}
+.pacient p:hover {
+    font-style: italic;
+}
+.vid {
+    font-weight: 700;
+}
